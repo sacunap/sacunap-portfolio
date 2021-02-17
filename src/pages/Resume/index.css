@@ -21,5 +21,16 @@
 }
 
 .tagCloud {
-  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+.contactInfo_item {
+  font-size: 14px;
+  color: #787878;
+}
+
+.contactInfo_item > span {
+  color: black;
+  font-weight: 500;
 }

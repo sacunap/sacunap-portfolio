@@ -29,7 +29,7 @@ export default {
     {
       title: "FullStack Web Developer - HENRY Bootcamp",
       date: "Oct 2020 - Feb 2021",
-      description: "Bootcamp +700horas de programación basado en prácticas y proyectos reales."
+      description: "Bootcamp +700 horas de programación basado en prácticas y proyectos reales."
     },
     {
       title: "Ingeniero químico - USACH",

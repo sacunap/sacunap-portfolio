@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ffc500;
+  --main-color: orange;
 }
 
 .top_60 {
@@ -20,6 +20,10 @@
 
 .pb_45 {
   padding-bottom: 45px !important;
+}
+
+.pt_45 {
+  padding-top: 45px !important;
 }
 
 @media (max-width: 991px) {
