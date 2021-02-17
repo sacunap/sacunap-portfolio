@@ -1,0 +1,6 @@
+.aboutMe_text {
+  color: darkslategray;
+  font-size: smaller !important;
+  line-height: 22px !important;
+  white-space: pre-line;
+}
