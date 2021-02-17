@@ -47,7 +47,7 @@ const Header = (props) => {
         </Nav>
 
         <div className="header_right">
-          <CustomButton text={"Cambiar idioma"} icon={<LanguageIcon />} />
+          {/* <CustomButton text={"Cambiar idioma"} icon={<LanguageIcon />} /> */}
           <CustomButton
             text={"Cambiar color"}
             icon={<BrightnessMediumIcon />}

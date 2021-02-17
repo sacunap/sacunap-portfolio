@@ -19,7 +19,7 @@ export default {
       icon: <GitHubIcon />,
     },
   },
-  about: `Ingeniero químico y estudiante pronto a egresar de Full Stack Web Developer en HENRY, con conocimiento en: JavaScript, HTML, CSS, Git / GitHub, React / React-hooks / React-Redux, NodeJS, Express JS, Metodología SCRUM.
+  about: `Ingeniero Químico y Full Stack Web Developer en HENRY, con conocimiento en: JavaScript, HTML, CSS, Git / GitHub, React / React-hooks / React-Redux, NodeJS, Express JS, Metodología SCRUM.
   
   Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos profesionales multidisciplinarios en busca de una meta común. 
   
@@ -32,7 +32,7 @@ export default {
       description: "Bootcamp +700 horas de programación basado en prácticas y proyectos reales."
     },
     {
-      title: "Ingeniero químico - USACH",
+      title: "Ingeniero Químico - USACH",
       date: "2014 - 2019",
       description: "Titulado de Ingeniería de ejecución en química de la Universidad de Santiago de Chile."
     },

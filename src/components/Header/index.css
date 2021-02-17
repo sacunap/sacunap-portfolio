@@ -41,8 +41,8 @@
 .header .header_right {
   display: flex;
   align-items: center;
-  width: 400px;
-  justify-content: space-around;
+  /* width: 400px;
+  justify-content: space-around; */
 }
 
 .header .header_right > a > .MuiSvgIcon-root {

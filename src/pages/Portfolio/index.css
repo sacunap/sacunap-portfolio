@@ -7,12 +7,11 @@
 .project_image {
   width: 100%;
   border-radius: 5px;
-  margin-left: 20px;
+  padding-top: 50px;
 }
 
 .btn_demo_code {
   display: flex;
-  margin-left: 330px;
   width: 100%;
   justify-content: space-evenly;
 }
