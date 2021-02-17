@@ -1,13 +1,34 @@
 import { Typography } from "@material-ui/core";
 import React from "react";
-import CustomTimeline from "../Timeline/index";
+import CustomTimeline, { CustomTimelineSeparator } from "../Timeline/index";
 import PersonOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
-
 import resumeData from "../../utils/resumeData";
-
 import "./index.css";
-
 import profilePic from "../../assets/images/profilePic.jpeg";
+import TimelineItem from "@material-ui/lab/TimelineItem";
+import TimelineContent from "@material-ui/lab/TimelineContent";
+import CustomButton from "../Button/index";
+import GetAppIcon from "@material-ui/icons/GetApp";
+
+const CustomTimelineItem = ({ title, text, link }) => (
+  <TimelineItem>
+    <CustomTimelineSeparator />
+    <TimelineContent className="timeline_content">
+      {link ? (
+        <Typography className="timelineItem_text">
+          <span>{title}:</span>{" "}
+          <a href={link} target="_blank">
+            {text}
+          </a>
+        </Typography>
+      ) : (
+        <Typography className="timelineItem_text">
+          <span>{title}:</span> {text}
+        </Typography>
+      )}
+    </TimelineContent>
+  </TimelineItem>
+);
 
 const Profile = () => {
   return (
@@ -20,9 +41,22 @@ const Profile = () => {
         <img src={profilePic} alt="" />
       </figure>
       <div className="profile_information">
-        <CustomTimeline icon={<PersonOutlinedIcon />} />
-        <br />
-        <button>my Button</button>
+        <CustomTimeline icon={<PersonOutlinedIcon />}>
+          <CustomTimelineItem title="Name" text={resumeData.name} />
+          <CustomTimelineItem title="Title" text={resumeData.title} />
+          <CustomTimelineItem title="Email" text={resumeData.email} />
+
+          {Object.keys(resumeData.socials).map((key) => (
+            <CustomTimelineItem
+              title={key}
+              text={resumeData.socials[key].text}
+              link={resumeData.socials[key].link}
+            />
+          ))}
+        </CustomTimeline>
+        <div className="button_container">
+          <CustomButton text={"Download CV"} icon={<GetAppIcon />} />
+        </div>
       </div>
     </div>
   );

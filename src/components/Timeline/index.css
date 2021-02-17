@@ -22,7 +22,7 @@
   color: black;
   background-color: var(--main-color);
   font-size: small;
-  padding: 2px;
+  padding: 10px;
 }
 
 .timeline .timeline_dot {
@@ -31,7 +31,7 @@
   padding: 2px;
 }
 
-.timeline .MuiTimelineItem-root {
+.timeline .MuiTimelineConnector-root {
   background-color: #eee;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .timeline .separator_padding {
-  padding-left: 11px;
+  padding-left: 18px;
 }
 
 .timeline .timeline_content {

@@ -8,12 +8,12 @@ export default {
   address: "Santiago, Chile",
   phone: "+56 9 8422 4592",
   socials: {
-    linkedIn: {
+    LinkedIn: {
       link: "https://www.linkedin.com/in/sixto-acuna-fullstack-developer/",
       text: "MyLinkedIn",
       icon: <LinkedInIcon />,
     },
-    github: {
+    GitHub: {
       link: "https://github.com/sacunap",
       text: "MyGithub",
       icon: <GitHubIcon />,
