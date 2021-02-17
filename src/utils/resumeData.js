@@ -10,12 +10,12 @@ export default {
   socials: {
     LinkedIn: {
       link: "https://www.linkedin.com/in/sixto-acuna-fullstack-developer/",
-      text: "MyLinkedIn",
+      text: "Mi LinkedIn",
       icon: <LinkedInIcon />,
     },
     GitHub: {
       link: "https://github.com/sacunap",
-      text: "MyGithub",
+      text: "Mi Github",
       icon: <GitHubIcon />,
     },
   },

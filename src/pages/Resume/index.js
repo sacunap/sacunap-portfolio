@@ -7,6 +7,7 @@ import "./index.css";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import SchoolIcon from "@material-ui/icons/School";
+import TelegramIcon from '@material-ui/icons/Telegram';
 import TagCloud from "react3dtagcloud";
 import CustomButton from "../../components/Button/index";
 
@@ -30,7 +31,7 @@ const Resume = () => {
       <Grid container className="section pb_45">
         <Grid item className="section_title mb_30">
           <span></span>
-          <h6 className="section_title_text">About Me</h6>
+          <h6 className="section_title_text">Sobre mí</h6>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="body2" className="aboutMe_text">
@@ -50,7 +51,7 @@ const Resume = () => {
               <Grid container className="resume_timeline">
                 <Grid item sm={12} md={12}>
                   <CustomTimeline
-                    title="Education History"
+                    title="Educación"
                     icon={<SchoolIcon />}
                   >
                     {resumeData.education.map((_education) => (
@@ -85,7 +86,7 @@ const Resume = () => {
         <Grid item xs={12} lg={6}>
           <Grid item className="section_title mb_30">
             <span></span>
-            <h6 className="section_title_text">Skills</h6>
+            <h6 className="section_title_text">Habilidades técnicas</h6>
           </Grid>
           <Grid container className="tagCloud">
             <Grid item xs={12}>
@@ -100,21 +101,21 @@ const Resume = () => {
           <Grid container>
             <Grid item className="section_title mb_30">
               <span></span>
-              <h6 className="section_title_text">Contact Form</h6>
+              <h6 className="section_title_text">Formulario de contacto</h6>
             </Grid>
             <Grid item xs={12}>
               <Grid container spacing={3}>
                 <Grid item xs={12} sm={6}>
-                  <TextField fullWidth name="name" label="Name" />
+                  <TextField fullWidth name="name" label="Nombre" />
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                  <TextField fullWidth name="email" label="E-mail" />
+                  <TextField fullWidth name="email" label="Correo" />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField fullWidth name="message" label="Message" />
+                  <TextField fullWidth name="message" label="Mensaje" />
                 </Grid>
                 <Grid item xs={12}>
-                  <CustomButton text="Submit" />
+                  <CustomButton text="Enviar" icon={<TelegramIcon />}/>
                 </Grid>
               </Grid>
             </Grid>
@@ -124,23 +125,23 @@ const Resume = () => {
         <Grid item xs={12} lg={5}>
           <Grid item className="section_title mb_30">
             <span></span>
-            <h6 className="section_title_text">Contact information</h6>
+            <h6 className="section_title_text">Información de contacto</h6>
           </Grid>
           <Grid item xs={12}>
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <Typography className="contactInfo_item">
-                  <span>Address: </span> {resumeData.address}
+                  <span>Ubicación: </span> {resumeData.address}
                 </Typography>
               </Grid>
               <Grid item xs={12}>
                 <Typography className="contactInfo_item">
-                  <span>Phone: </span> {resumeData.phone}
+                  <span>Celular: </span> {resumeData.phone}
                 </Typography>
               </Grid>
               <Grid item xs={12}>
                 <Typography className="contactInfo_item">
-                  <span>Email: </span> {resumeData.email}
+                  <span>Correo: </span> {resumeData.email}
                 </Typography>
               </Grid>
             </Grid>

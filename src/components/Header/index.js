@@ -9,16 +9,10 @@ import {
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, NavLink, withRouter } from "react-router-dom";
-import {
-  HomeRounded,
-  SchoolRounded,
-  WorkOffRounded,
-  LinkedIn,
-  GitHub,
-  Telegram,
-} from "@material-ui/icons";
-import resumeData from "../../utils/resumeData";
+import { HomeRounded } from "@material-ui/icons";
 import CustomButton from "../Button/index";
+import BrightnessMediumIcon from "@material-ui/icons/BrightnessMedium";
+import LanguageIcon from "@material-ui/icons/Language";
 import "./index.css";
 
 const Header = (props) => {
@@ -48,17 +42,16 @@ const Header = (props) => {
               pathName == "/portfolio" ? "header_link_active" : "header_link"
             }
           >
-            Portfolio
+            Proyectos
           </Nav.Link>
         </Nav>
 
         <div className="header_right">
-          {Object.keys(resumeData.socials).map((key) => (
-            <a href={resumeData.socials[key].link} target="_blank">
-              {resumeData.socials[key].icon}
-            </a>
-          ))}
-          <CustomButton text={"Hire Me"} icon={<Telegram />} />
+          <CustomButton text={"Cambiar idioma"} icon={<LanguageIcon />} />
+          <CustomButton
+            text={"Cambiar color"}
+            icon={<BrightnessMediumIcon />}
+          />
         </div>
       </Navbar.Collapse>
     </Navbar>
