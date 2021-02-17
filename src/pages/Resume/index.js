@@ -90,13 +90,13 @@ const Resume = () => {
           </Grid>
           <Grid container className="tagCloud">
             <Grid item xs={12}>
-              <TagCloud tagName={tags} radius={100}></TagCloud>
+              <TagCloud tagName={tags} radius={100} url={""}></TagCloud>
             </Grid>
           </Grid>
         </Grid>
       </Grid>
 
-      <Grid container spacing={6} className="section pt_45 pb_45">
+      {/* <Grid container spacing={6} className="section pt_45 pb_45">
         <Grid item xs={12} lg={7}>
           <Grid container>
             <Grid item className="section_title mb_30">
@@ -147,7 +147,7 @@ const Resume = () => {
             </Grid>
           </Grid>
         </Grid>
-      </Grid>
+      </Grid> */}
     </>
   );
 };

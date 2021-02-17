@@ -1,0 +1,22 @@
+.project_description {
+  text-align: justify;
+  line-height: 40px;
+  color: darkslategray;
+}
+
+.project_image {
+  width: 100%;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.btn_demo_code {
+  display: flex;
+  margin-left: 330px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.project {
+  align-items: center;
+}

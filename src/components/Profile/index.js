@@ -9,6 +9,7 @@ import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import CustomButton from "../Button/index";
 import GetAppIcon from "@material-ui/icons/GetApp";
+import CV from "../../assets/docs/CV - Sixto Acuña Piña.pdf";
 
 const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -38,12 +39,13 @@ const Profile = () => {
         <Typography className="title">{resumeData.title}</Typography>
       </div>
       <figure className="profile_image">
-        <img src={profilePic} alt="" />
+        <img className="profilePic" src={profilePic} alt="" />
       </figure>
       <div className="profile_information">
         <CustomTimeline icon={<PersonOutlinedIcon />}>
           <CustomTimelineItem title="Nombre" text={resumeData.name} />
           <CustomTimelineItem title="Correo" text={resumeData.email} />
+          <CustomTimelineItem title="Celular" text={resumeData.phone} />
 
           {Object.keys(resumeData.socials).map((key) => (
             <CustomTimelineItem
@@ -54,7 +56,9 @@ const Profile = () => {
           ))}
         </CustomTimeline>
         <div className="button_container">
-          <CustomButton text={"Descargar CV"} icon={<GetAppIcon />} />
+          <a href={CV} target="_blank">
+            <CustomButton text={"Descargar CV"} icon={<GetAppIcon />} />
+          </a>
         </div>
       </div>
     </div>

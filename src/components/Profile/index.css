@@ -27,11 +27,11 @@
   clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%); */
 }
 
-img {
+.profilePic {
   border-radius: 100px 0 100px 0;
 }
 
-.profile_image img {
+.profile_image .profilePic {
   width: 100%;
 }
 

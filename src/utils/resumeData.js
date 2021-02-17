@@ -36,5 +36,5 @@ export default {
       date: "2014 - 2019",
       description: "Titulado de Ingeniería de ejecución en química de la Universidad de Santiago de Chile."
     },
-  ]
+  ],
 };
