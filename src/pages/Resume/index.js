@@ -5,13 +5,25 @@ import CustomTimeline, {
 } from "../../components/Timeline/index";
 import "./index.css";
 import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
-import TimelineDot from "@material-ui/lab/TimelineDot";
-import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import SchoolIcon from "@material-ui/icons/School";
+import TagCloud from 'react3dtagcloud'
 
 const Resume = () => {
+  const tags = [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Git/Github",
+    "React",
+    "Redux",
+    "NodeJS",
+    "ExpressJS",
+    "Scrum",
+    "MongoDB",
+    "Mongoose",
+    "GraphQL",
+  ];
   return (
     <>
       <Grid container className="section pb_45">
@@ -60,6 +72,13 @@ const Resume = () => {
             {/* <Grid item sm={12} md={6}></Grid> */}
           </Grid>
         </Grid>
+        <Grid item className="section_title mb_30">
+          <span></span>
+          <h6 className="section_title_text">Skills</h6>
+        </Grid>
+          <div className="tagCloud">
+            <TagCloud tagName={tags} radius={100}></TagCloud>
+          </div>
       </Grid>
 
       <Grid container className="section"></Grid>
