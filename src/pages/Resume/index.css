@@ -34,3 +34,10 @@
   color: black;
   font-weight: 500;
 }
+
+.cloud3d {
+  cursor: default;
+  pointer-events: none;        
+  text-decoration: none;
+  color: grey;
+}

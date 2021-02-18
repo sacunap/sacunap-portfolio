@@ -7,7 +7,7 @@ import "./index.css";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import SchoolIcon from "@material-ui/icons/School";
-import TelegramIcon from '@material-ui/icons/Telegram';
+import TelegramIcon from "@material-ui/icons/Telegram";
 import TagCloud from "react3dtagcloud";
 import CustomButton from "../../components/Button/index";
 
@@ -50,10 +50,7 @@ const Resume = () => {
             <Grid item xs={12}>
               <Grid container className="resume_timeline">
                 <Grid item sm={12} md={12}>
-                  <CustomTimeline
-                    title="Educación"
-                    icon={<SchoolIcon />}
-                  >
+                  <CustomTimeline title="Educación" icon={<SchoolIcon />}>
                     {resumeData.education.map((_education) => (
                       <TimelineItem>
                         <CustomTimelineSeparator />
@@ -89,8 +86,8 @@ const Resume = () => {
             <h6 className="section_title_text">Habilidades técnicas</h6>
           </Grid>
           <Grid container className="tagCloud">
-            <Grid item xs={12}>
-              <TagCloud tagName={tags} radius={100} url={""}></TagCloud>
+            <Grid item xs={12} className="cloud3d">
+              <TagCloud tagName={tags} radius={100}></TagCloud>
             </Grid>
           </Grid>
         </Grid>
