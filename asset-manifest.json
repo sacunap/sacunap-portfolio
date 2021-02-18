@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1a2557ce.chunk.css",
-    "main.js": "/static/js/main.53d876f7.chunk.js",
-    "main.js.map": "/static/js/main.53d876f7.chunk.js.map",
+    "main.js": "/static/js/main.ca7ec4ee.chunk.js",
+    "main.js.map": "/static/js/main.ca7ec4ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f8f997e.js",
     "runtime-main.js.map": "/static/js/runtime-main.4f8f997e.js.map",
     "static/css/2.06e340d7.chunk.css": "/static/css/2.06e340d7.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/dubsnip1.a300bc41.png": "/static/media/dubsnip1.a300bc41.png",
     "static/media/dubsnip2.65917aa9.png": "/static/media/dubsnip2.65917aa9.png",
     "static/media/dubsnip3.a82290b8.png": "/static/media/dubsnip3.a82290b8.png",
-    "static/media/dubsnip4.9cee4480.png": "/static/media/dubsnip4.9cee4480.png",
+    "static/media/dubsnip4.50cd8945.png": "/static/media/dubsnip4.50cd8945.png",
     "static/media/minimarket1.ec77d8c9.png": "/static/media/minimarket1.ec77d8c9.png",
     "static/media/minimarket2.0ae3cffd.png": "/static/media/minimarket2.0ae3cffd.png",
     "static/media/minimarket3.40c9ad60.png": "/static/media/minimarket3.40c9ad60.png",
@@ -29,6 +29,6 @@
     "static/css/2.06e340d7.chunk.css",
     "static/js/2.41149786.chunk.js",
     "static/css/main.1a2557ce.chunk.css",
-    "static/js/main.53d876f7.chunk.js"
+    "static/js/main.ca7ec4ee.chunk.js"
   ]
 }
