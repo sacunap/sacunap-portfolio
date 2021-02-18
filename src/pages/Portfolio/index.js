@@ -26,6 +26,10 @@ const Portfolio = () => {
       img: dubsnip3,
       alt: "picture3_Dubsnip",
     },
+    {
+      img: dubsnip4,
+      alt: "picture4_Dubsnip",
+    },
   ];
   const slidesMiniMarket = [
     {

@@ -19,22 +19,23 @@ export default {
       icon: <GitHubIcon />,
     },
   },
-  about: `Ingeniero Químico y Full Stack Web Developer en HENRY, con conocimiento en: JavaScript, HTML, CSS, Git / GitHub, React / React-hooks / React-Redux, NodeJS, Express JS, Metodología SCRUM.
-  
-  Profesional con gran apertura a nuevos aprendizajes, proactivo, motivado, innovador, orientado a resultados, motivación por el logro y trabajo en equipo con capacidad para integrar grupos profesionales multidisciplinarios en busca de una meta común. 
-  
-  Con destacadas habilidades de comunicación efectiva, de rápida adaptación a diferentes tareas laborales y una clara disposición al cumplimiento de tareas.`,
+  about: `Hola ! Soy Sixto Acuña, Ingeniero Químico y Full Stack Web Developer en HENRY. Sobre mí, bueno, me considero una persona relajada, siempre abierto a socializar y dispuesto a trabajar en equipo. En cuanto a la tecnología, soy un curioso, a menudo leo artículos de Medium y FreeCodeCamp para saber más de este mundo, así como también tomar notas, inspirarme y mantenerme al tanto de las nuevas tecnologías. 
+
+  En mi tiempo libre, me gusta leer libros policiales, ver series, disfrutar de los videojuegos y la buena música. De vez en cuando me junto con mis amigos para conversar de la vida y pasar un momento agradable. Soy una persona soñadora, ansío poder viajar y conocer lugares nuevos.
+  `,
 
   education: [
     {
       title: "FullStack Web Developer - HENRY Bootcamp",
       date: "Oct 2020 - Feb 2021",
-      description: "Bootcamp +700 horas de programación basado en prácticas y proyectos reales."
+      description:
+        "Bootcamp +700 horas de programación basado en prácticas y proyectos reales.",
     },
     {
       title: "Ingeniero Químico - USACH",
       date: "2014 - 2019",
-      description: "Titulado de Ingeniería de ejecución en química de la Universidad de Santiago de Chile."
+      description:
+        "Titulado de Ingeniería de ejecución en química de la Universidad de Santiago de Chile.",
     },
   ],
 };
