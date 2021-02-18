@@ -4,4 +4,4 @@ https://sacunap.github.io/
 
 Sixto Acuña Piña
 
-Contacto: sixto.acunap@gmail.com
+Contact: sixto.acunap@gmail.com
