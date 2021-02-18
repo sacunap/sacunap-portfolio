@@ -46,13 +46,13 @@ const Header = (props) => {
           </Nav.Link>
         </Nav>
 
-        <div className="header_right">
-          {/* <CustomButton text={"Cambiar idioma"} icon={<LanguageIcon />} /> */}
+        {/* <div className="header_right">
+          <CustomButton text={"Cambiar idioma"} icon={<LanguageIcon />} />
           <CustomButton
             text={"Cambiar color"}
             icon={<BrightnessMediumIcon />}
           />
-        </div>
+        </div> */}
       </Navbar.Collapse>
     </Navbar>
   );
