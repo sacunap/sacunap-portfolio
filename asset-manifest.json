@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sacunap-portfolio/static/css/main.1a2557ce.chunk.css",
+    "main.js": "/sacunap-portfolio/static/js/main.53d876f7.chunk.js",
+    "main.js.map": "/sacunap-portfolio/static/js/main.53d876f7.chunk.js.map",
+    "runtime-main.js": "/sacunap-portfolio/static/js/runtime-main.09416283.js",
+    "runtime-main.js.map": "/sacunap-portfolio/static/js/runtime-main.09416283.js.map",
+    "static/css/2.06e340d7.chunk.css": "/sacunap-portfolio/static/css/2.06e340d7.chunk.css",
+    "static/js/2.41149786.chunk.js": "/sacunap-portfolio/static/js/2.41149786.chunk.js",
+    "static/js/2.41149786.chunk.js.map": "/sacunap-portfolio/static/js/2.41149786.chunk.js.map",
+    "static/js/3.48c4e4e2.chunk.js": "/sacunap-portfolio/static/js/3.48c4e4e2.chunk.js",
+    "static/js/3.48c4e4e2.chunk.js.map": "/sacunap-portfolio/static/js/3.48c4e4e2.chunk.js.map",
+    "index.html": "/sacunap-portfolio/index.html",
+    "static/css/2.06e340d7.chunk.css.map": "/sacunap-portfolio/static/css/2.06e340d7.chunk.css.map",
+    "static/css/main.1a2557ce.chunk.css.map": "/sacunap-portfolio/static/css/main.1a2557ce.chunk.css.map",
+    "static/js/2.41149786.chunk.js.LICENSE.txt": "/sacunap-portfolio/static/js/2.41149786.chunk.js.LICENSE.txt",
+    "static/media/CV - Sixto Acuña Piña.ae9d1859.pdf": "/sacunap-portfolio/static/media/CV - Sixto Acuña Piña.ae9d1859.pdf",
+    "static/media/dubsnip1.a300bc41.png": "/sacunap-portfolio/static/media/dubsnip1.a300bc41.png",
+    "static/media/dubsnip2.65917aa9.png": "/sacunap-portfolio/static/media/dubsnip2.65917aa9.png",
+    "static/media/dubsnip3.a82290b8.png": "/sacunap-portfolio/static/media/dubsnip3.a82290b8.png",
+    "static/media/dubsnip4.9cee4480.png": "/sacunap-portfolio/static/media/dubsnip4.9cee4480.png",
+    "static/media/minimarket1.ec77d8c9.png": "/sacunap-portfolio/static/media/minimarket1.ec77d8c9.png",
+    "static/media/minimarket2.0ae3cffd.png": "/sacunap-portfolio/static/media/minimarket2.0ae3cffd.png",
+    "static/media/minimarket3.40c9ad60.png": "/sacunap-portfolio/static/media/minimarket3.40c9ad60.png",
+    "static/media/profilePic.2eb54e72.jpeg": "/sacunap-portfolio/static/media/profilePic.2eb54e72.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09416283.js",
+    "static/css/2.06e340d7.chunk.css",
+    "static/js/2.41149786.chunk.js",
+    "static/css/main.1a2557ce.chunk.css",
+    "static/js/main.53d876f7.chunk.js"
+  ]
+}
