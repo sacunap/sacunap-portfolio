@@ -25,6 +25,8 @@ const Resume = () => {
     "MongoDB",
     "Mongoose",
     "GraphQL",
+    "Postman",
+    "Api REST"
   ];
   return (
     <>
