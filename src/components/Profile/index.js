@@ -9,7 +9,7 @@ import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import CustomButton from "../Button/index";
 import GetAppIcon from "@material-ui/icons/GetApp";
-import CV from "../../assets/docs/CV - Sixto Acuña Piña.pdf";
+import CV from "../../assets/docs/CV.pdf";
 
 const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
